@@ -19,14 +19,16 @@ def lucas(n) :
     return 1 
   return lucas(n - 1) + lucas(n - 2) 
 
-def sum_series(n):
-    b, c = 0, 1
-    if n == 0:
-        return 0
-    for i in range(n-1):
-        b, c = c, b + c
-    return c
-print(sum_series(5))
+
+def sum_series(n, first=0, second=1):
+  if first == 0:
+    n -= 1
+  while n - 2 >= 0:
+    temp = first + second
+    first = second
+    second = temp
+    n -= 1
+  return second
   
    
   

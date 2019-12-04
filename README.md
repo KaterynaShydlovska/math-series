@@ -20,9 +20,6 @@ The functions can help user got position and element in the fibonacci series and
 
 For this aplication I used pytest, python3, pipenv.
 
-## API
-<!-- Provide detailed instructions for your applications usage. This should include any methods or endpoints available to the user/client/developer. Each section should be formatted to provide clear syntax for usage, example calls including input data requirements and options, and example responses or return values. -->
-
 ## Change Log
 
 12-03-2019 4:30 pm - Created functions  fibonacci series and the lucas numbers. 
